@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Employee.Application/1.0.0": {
+        "dependencies": {
+          "Employee.Communication": "1.0.0"
+        },
+        "runtime": {
+          "Employee.Application.dll": {}
+        }
+      },
+      "Employee.Communication/1.0.0": {
+        "runtime": {
+          "Employee.Communication.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Employee.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Employee.Communication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
